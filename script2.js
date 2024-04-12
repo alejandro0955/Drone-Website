@@ -27,12 +27,6 @@ var circle = L.circle([25.7994996, -80.1990463], {
 }).addTo(map);
 
 
-// for (let i = 0; i < coords.length; i++) {
-//     var con = document.getElementById("terminal");
-//     var marker = L.marker(coords[i], {}).addTo(map);
-//     con.innerHTML += ("> Parking found at: " + (coords[i]) + "<br>");
-// }
-
 for (let i = 1; i < coords.length; i++) {
     setTimeout(function timer() {
         var con = document.getElementById("terminal");
