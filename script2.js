@@ -7,11 +7,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-for (let i =0; 5; i++)  {
-    var ter = document.getElementById("terminal").innerHTML;
-    ter += "Text"
-}
 
+for (let i = 0; i < 5; i++) {
+    var con = document.getElementById("terminal");
+    con.innerHTML += ("Parking spound found at: " + toString(44.125165) + "," + toString(-25.5155121) + "<br>");
+}
 // map.locate({setView: true, watch: true})
 // map.on('locationfound', function(e){
     
